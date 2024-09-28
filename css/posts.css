@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+}
+
+.content {
+    width: 95%;
+    margin: auto;
+}
+
+.content button {
+    color: white !important;
+}
+
+.content div {
+    background-color: #1e293b !important;
+    color: #fefefe;
+    border-radius: .25em;
+    padding: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.content div img {
+    border-radius: .25em;
+    width: 100%;
+}
+
+/* Hide for now
+hr {
+    margin-top: 8px;
+    background-color: rgb(51 65 85);
+    color: rgb(51 65 85);
+    border-color: rgb(51 65 85);
+    height: 4px;
+}
+/*
+
+/* Media queries for desktop */
+@media screen and (min-width: 720px) {
+    .content {
+        width: 65%;
+    }
+}
